@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B403516E-ACB8-4CED-A667-DFAF6496A56B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HdM-Tunes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>37798B79004E56A8D39729234FD17D0797B52E17</key>
+		<string>https://version.mi.hdm-stuttgart.de/git/pma-ios-s15-team-3a</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HdM-Tunes/HdM-Tunes.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>37798B79004E56A8D39729234FD17D0797B52E17</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://version.mi.hdm-stuttgart.de/git/pma-ios-s15-team-3a</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>37798B79004E56A8D39729234FD17D0797B52E17</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37798B79004E56A8D39729234FD17D0797B52E17</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pma-ios-s15-team-3a</string>
+		</dict>
+	</array>
+</dict>
+</plist>

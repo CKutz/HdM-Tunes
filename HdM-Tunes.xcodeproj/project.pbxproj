@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD94DFC1B21CFDB0073DDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94DFB1B21CFDB0073DDDC /* AppDelegate.swift */; };
+		ACD94DFE1B21CFDB0073DDDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94DFD1B21CFDB0073DDDC /* ViewController.swift */; };
+		ACD94E011B21CFDB0073DDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD94DFF1B21CFDB0073DDDC /* Main.storyboard */; };
+		ACD94E031B21CFDB0073DDDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD94E021B21CFDB0073DDDC /* Images.xcassets */; };
+		ACD94E061B21CFDB0073DDDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD94E041B21CFDB0073DDDC /* LaunchScreen.xib */; };
+		ACD94E121B21CFDB0073DDDC /* HdM_TunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94E111B21CFDB0073DDDC /* HdM_TunesTests.swift */; };
+		ACD94E1C1B21CFED0073DDDC /* JETopBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94E1B1B21CFED0073DDDC /* JETopBarViewController.swift */; };
+		ACD94E1E1B21D7E20073DDDC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94E1D1B21D7E20073DDDC /* Player.swift */; };
+		ACD94E221B21DE960073DDDC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD94E211B21DE960073DDDC /* AVFoundation.framework */; };
+		ACD94E251B21E05B0073DDDC /* PlayerStateChangedListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94E241B21E05B0073DDDC /* PlayerStateChangedListener.swift */; };
+		ACD94E281B21E0DB0073DDDC /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94E271B21E0DB0073DDDC /* Playlist.swift */; };
+		ACD94E2A1B21E1200073DDDC /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94E291B21E1200073DDDC /* PlayerViewController.swift */; };
+		ACD94E2C1B21E1360073DDDC /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD94E2B1B21E1360073DDDC /* PlaylistTableViewController.swift */; };
+		ACEACFB81B26144A00660910 /* ic_action_backwards.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEACFB01B26144A00660910 /* ic_action_backwards.png */; };
+		ACEACFB91B26144A00660910 /* ic_action_forwards.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEACFB11B26144A00660910 /* ic_action_forwards.png */; };
+		ACEACFBA1B26144A00660910 /* ic_action_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEACFB21B26144A00660910 /* ic_action_pause.png */; };
+		ACEACFBB1B26144A00660910 /* ic_action_play.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEACFB31B26144A00660910 /* ic_action_play.png */; };
+		ACEACFBC1B26144A00660910 /* ic_action_repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEACFB41B26144A00660910 /* ic_action_repeat.png */; };
+		ACEACFBD1B26144A00660910 /* ic_action_shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEACFB51B26144A00660910 /* ic_action_shuffle.png */; };
+		ACEACFBE1B26144A00660910 /* ic_action_sound_off.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEACFB61B26144A00660910 /* ic_action_sound_off.png */; };
+		ACEACFBF1B26144A00660910 /* ic_action_sound_on.png in Resources */ = {isa = PBXBuildFile; fileRef = ACEACFB71B26144A00660910 /* ic_action_sound_on.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD94E0C1B21CFDB0073DDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD94DEE1B21CFDB0073DDDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD94DF51B21CFDB0073DDDC;
+			remoteInfo = "HdM-Tunes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACD94DF61B21CFDB0073DDDC /* HdM-Tunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HdM-Tunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD94DFA1B21CFDB0073DDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD94DFB1B21CFDB0073DDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD94DFD1B21CFDB0073DDDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACD94E001B21CFDB0073DDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD94E021B21CFDB0073DDDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACD94E051B21CFDB0073DDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ACD94E0B1B21CFDB0073DDDC /* HdM-TunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HdM-TunesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD94E101B21CFDB0073DDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD94E111B21CFDB0073DDDC /* HdM_TunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HdM_TunesTests.swift; sourceTree = "<group>"; };
+		ACD94E1B1B21CFED0073DDDC /* JETopBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JETopBarViewController.swift; sourceTree = "<group>"; };
+		ACD94E1D1B21D7E20073DDDC /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		ACD94E211B21DE960073DDDC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ACD94E241B21E05B0073DDDC /* PlayerStateChangedListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStateChangedListener.swift; sourceTree = "<group>"; };
+		ACD94E271B21E0DB0073DDDC /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		ACD94E291B21E1200073DDDC /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		ACD94E2B1B21E1360073DDDC /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
+		ACEACFB01B26144A00660910 /* ic_action_backwards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_backwards.png; path = ../../../../Desktop/ic_action_backwards.png; sourceTree = "<group>"; };
+		ACEACFB11B26144A00660910 /* ic_action_forwards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_forwards.png; path = ../../../../Desktop/ic_action_forwards.png; sourceTree = "<group>"; };
+		ACEACFB21B26144A00660910 /* ic_action_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_pause.png; path = ../../../../Desktop/ic_action_pause.png; sourceTree = "<group>"; };
+		ACEACFB31B26144A00660910 /* ic_action_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_play.png; path = ../../../../Desktop/ic_action_play.png; sourceTree = "<group>"; };
+		ACEACFB41B26144A00660910 /* ic_action_repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_repeat.png; path = ../../../../Desktop/ic_action_repeat.png; sourceTree = "<group>"; };
+		ACEACFB51B26144A00660910 /* ic_action_shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_shuffle.png; path = ../../../../Desktop/ic_action_shuffle.png; sourceTree = "<group>"; };
+		ACEACFB61B26144A00660910 /* ic_action_sound_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_sound_off.png; path = ../../../../Desktop/ic_action_sound_off.png; sourceTree = "<group>"; };
+		ACEACFB71B26144A00660910 /* ic_action_sound_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_sound_on.png; path = ../../../../Desktop/ic_action_sound_on.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD94DF31B21CFDB0073DDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD94E221B21DE960073DDDC /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD94E081B21CFDB0073DDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD94DED1B21CFDB0073DDDC = {
+			isa = PBXGroup;
+			children = (
+				ACD94E211B21DE960073DDDC /* AVFoundation.framework */,
+				ACD94DF81B21CFDB0073DDDC /* HdM-Tunes */,
+				ACD94E0E1B21CFDB0073DDDC /* HdM-TunesTests */,
+				ACD94DF71B21CFDB0073DDDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD94DF71B21CFDB0073DDDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD94DF61B21CFDB0073DDDC /* HdM-Tunes.app */,
+				ACD94E0B1B21CFDB0073DDDC /* HdM-TunesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD94DF81B21CFDB0073DDDC /* HdM-Tunes */ = {
+			isa = PBXGroup;
+			children = (
+				ACEACFC01B26145B00660910 /* images */,
+				ACD94DFB1B21CFDB0073DDDC /* AppDelegate.swift */,
+				ACD94DFD1B21CFDB0073DDDC /* ViewController.swift */,
+				ACD94E1B1B21CFED0073DDDC /* JETopBarViewController.swift */,
+				ACD94E231B21E0240073DDDC /* Player */,
+				ACD94E261B21E0A10073DDDC /* Playlist */,
+				ACD94DFF1B21CFDB0073DDDC /* Main.storyboard */,
+				ACD94E021B21CFDB0073DDDC /* Images.xcassets */,
+				ACD94E041B21CFDB0073DDDC /* LaunchScreen.xib */,
+				ACD94DF91B21CFDB0073DDDC /* Supporting Files */,
+			);
+			path = "HdM-Tunes";
+			sourceTree = "<group>";
+		};
+		ACD94DF91B21CFDB0073DDDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACD94DFA1B21CFDB0073DDDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACD94E0E1B21CFDB0073DDDC /* HdM-TunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD94E111B21CFDB0073DDDC /* HdM_TunesTests.swift */,
+				ACD94E0F1B21CFDB0073DDDC /* Supporting Files */,
+			);
+			path = "HdM-TunesTests";
+			sourceTree = "<group>";
+		};
+		ACD94E0F1B21CFDB0073DDDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACD94E101B21CFDB0073DDDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACD94E231B21E0240073DDDC /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				ACD94E1D1B21D7E20073DDDC /* Player.swift */,
+				ACD94E291B21E1200073DDDC /* PlayerViewController.swift */,
+				ACD94E241B21E05B0073DDDC /* PlayerStateChangedListener.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		ACD94E261B21E0A10073DDDC /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				ACD94E271B21E0DB0073DDDC /* Playlist.swift */,
+				ACD94E2B1B21E1360073DDDC /* PlaylistTableViewController.swift */,
+			);
+			name = Playlist;
+			sourceTree = "<group>";
+		};
+		ACEACFC01B26145B00660910 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ACEACFB01B26144A00660910 /* ic_action_backwards.png */,
+				ACEACFB11B26144A00660910 /* ic_action_forwards.png */,
+				ACEACFB21B26144A00660910 /* ic_action_pause.png */,
+				ACEACFB31B26144A00660910 /* ic_action_play.png */,
+				ACEACFB41B26144A00660910 /* ic_action_repeat.png */,
+				ACEACFB51B26144A00660910 /* ic_action_shuffle.png */,
+				ACEACFB61B26144A00660910 /* ic_action_sound_off.png */,
+				ACEACFB71B26144A00660910 /* ic_action_sound_on.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD94DF51B21CFDB0073DDDC /* HdM-Tunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD94E151B21CFDB0073DDDC /* Build configuration list for PBXNativeTarget "HdM-Tunes" */;
+			buildPhases = (
+				ACD94DF21B21CFDB0073DDDC /* Sources */,
+				ACD94DF31B21CFDB0073DDDC /* Frameworks */,
+				ACD94DF41B21CFDB0073DDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HdM-Tunes";
+			productName = "HdM-Tunes";
+			productReference = ACD94DF61B21CFDB0073DDDC /* HdM-Tunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD94E0A1B21CFDB0073DDDC /* HdM-TunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD94E181B21CFDB0073DDDC /* Build configuration list for PBXNativeTarget "HdM-TunesTests" */;
+			buildPhases = (
+				ACD94E071B21CFDB0073DDDC /* Sources */,
+				ACD94E081B21CFDB0073DDDC /* Frameworks */,
+				ACD94E091B21CFDB0073DDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD94E0D1B21CFDB0073DDDC /* PBXTargetDependency */,
+			);
+			name = "HdM-TunesTests";
+			productName = "HdM-TunesTests";
+			productReference = ACD94E0B1B21CFDB0073DDDC /* HdM-TunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD94DEE1B21CFDB0073DDDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = JE;
+				TargetAttributes = {
+					ACD94DF51B21CFDB0073DDDC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					ACD94E0A1B21CFDB0073DDDC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = ACD94DF51B21CFDB0073DDDC;
+					};
+				};
+			};
+			buildConfigurationList = ACD94DF11B21CFDB0073DDDC /* Build configuration list for PBXProject "HdM-Tunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD94DED1B21CFDB0073DDDC;
+			productRefGroup = ACD94DF71B21CFDB0073DDDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD94DF51B21CFDB0073DDDC /* HdM-Tunes */,
+				ACD94E0A1B21CFDB0073DDDC /* HdM-TunesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD94DF41B21CFDB0073DDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEACFBC1B26144A00660910 /* ic_action_repeat.png in Resources */,
+				ACEACFB81B26144A00660910 /* ic_action_backwards.png in Resources */,
+				ACEACFBD1B26144A00660910 /* ic_action_shuffle.png in Resources */,
+				ACEACFBB1B26144A00660910 /* ic_action_play.png in Resources */,
+				ACD94E011B21CFDB0073DDDC /* Main.storyboard in Resources */,
+				ACEACFBE1B26144A00660910 /* ic_action_sound_off.png in Resources */,
+				ACD94E061B21CFDB0073DDDC /* LaunchScreen.xib in Resources */,
+				ACEACFB91B26144A00660910 /* ic_action_forwards.png in Resources */,
+				ACEACFBA1B26144A00660910 /* ic_action_pause.png in Resources */,
+				ACD94E031B21CFDB0073DDDC /* Images.xcassets in Resources */,
+				ACEACFBF1B26144A00660910 /* ic_action_sound_on.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD94E091B21CFDB0073DDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD94DF21B21CFDB0073DDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD94E2C1B21E1360073DDDC /* PlaylistTableViewController.swift in Sources */,
+				ACD94E1E1B21D7E20073DDDC /* Player.swift in Sources */,
+				ACD94DFE1B21CFDB0073DDDC /* ViewController.swift in Sources */,
+				ACD94E251B21E05B0073DDDC /* PlayerStateChangedListener.swift in Sources */,
+				ACD94E2A1B21E1200073DDDC /* PlayerViewController.swift in Sources */,
+				ACD94DFC1B21CFDB0073DDDC /* AppDelegate.swift in Sources */,
+				ACD94E1C1B21CFED0073DDDC /* JETopBarViewController.swift in Sources */,
+				ACD94E281B21E0DB0073DDDC /* Playlist.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD94E071B21CFDB0073DDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD94E121B21CFDB0073DDDC /* HdM_TunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD94E0D1B21CFDB0073DDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD94DF51B21CFDB0073DDDC /* HdM-Tunes */;
+			targetProxy = ACD94E0C1B21CFDB0073DDDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACD94DFF1B21CFDB0073DDDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD94E001B21CFDB0073DDDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACD94E041B21CFDB0073DDDC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD94E051B21CFDB0073DDDC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD94E131B21CFDB0073DDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACD94E141B21CFDB0073DDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD94E161B21CFDB0073DDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HdM-Tunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACD94E171B21CFDB0073DDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HdM-Tunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACD94E191B21CFDB0073DDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HdM-TunesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HdM-Tunes.app/HdM-Tunes";
+			};
+			name = Debug;
+		};
+		ACD94E1A1B21CFDB0073DDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HdM-TunesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HdM-Tunes.app/HdM-Tunes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD94DF11B21CFDB0073DDDC /* Build configuration list for PBXProject "HdM-Tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD94E131B21CFDB0073DDDC /* Debug */,
+				ACD94E141B21CFDB0073DDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD94E151B21CFDB0073DDDC /* Build configuration list for PBXNativeTarget "HdM-Tunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD94E161B21CFDB0073DDDC /* Debug */,
+				ACD94E171B21CFDB0073DDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD94E181B21CFDB0073DDDC /* Build configuration list for PBXNativeTarget "HdM-TunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD94E191B21CFDB0073DDDC /* Debug */,
+				ACD94E1A1B21CFDB0073DDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD94DEE1B21CFDB0073DDDC /* Project object */;
+}
